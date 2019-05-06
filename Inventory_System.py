@@ -1,7 +1,5 @@
 ## Developer/Author: Ayodele Jimoh
 ## Project Name: Inventory Management
-## Comp Sci 1XA3 Final Porject
-## Due Date April 9th 2017
 
 #########################################################################################################################################
 ## A Few Notes                                                                                                                         ##                        
@@ -10,7 +8,7 @@
 ## hyphen in order to distinguish between the strings/words. Example of an item is shown below;                                        ##
 ## Item Number: 2222, Quantity: 20, Item Name: Screwdrivers, Item Location: Warehouse-C, Item Description: Large-Phillips-Screwdrivers.##
 ##                                                                                                                                     ##
-## However, if a item properties if just one word, the inclusion of the hyphen could be disregarded                                    ##
+## However, if an item properties is just one word, the inclusion of hyphen could be disregarded                                    ##
 #########################################################################################################################################
 
  
