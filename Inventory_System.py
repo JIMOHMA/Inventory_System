@@ -1,4 +1,4 @@
-## Developer/Author: Ayodele Jimoh
+## Developer/Author: Muyideen Ayodele Jimoh
 ## Project Name: Inventory Management
 
 #########################################################################################################################################
