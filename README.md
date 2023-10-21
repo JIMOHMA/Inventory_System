@@ -22,10 +22,11 @@ Two separate applications are developed for this iventory management system, one
 
 ### Features (***CRUD***)
 - [x] *Create* - Add a new entry into the Inventory database 
+![Add New Item](TempAdd.PNG "Temp Add")
+![Saved Item](Saved.PNG "Save")
 
-### SYSTEM ARCHITECTURE
-![SYSTEM ARCHITECTURE](UML_Diagram.PNG "UML screenshot")
+- [x] *Read* - Load the database into the application and search for any given item based on it ***Item Number***
+![Add New Item](TempAdd.PNG "Temp Add")
 
-- [x] *Read* - Load the database into the application and search for any given item based on it ***Item Number*** 
 - [x] *Update* - Search for any given item and update its record in the inventory 
 - [x] *Delete* - Delete any given record from the inventory, and update the database 
