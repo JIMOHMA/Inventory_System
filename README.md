@@ -1,6 +1,6 @@
 # Inventory Manager 
 ### Initial Screen
-![Home](InitialScreen.PNG "Initial View on Execution")
+![Home](imgs/InitialScreen.PNG "Initial View on Execution")
 
 ## Description 
 An application use to store inventory data for just about any item. The database for 
