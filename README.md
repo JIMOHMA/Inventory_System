@@ -1,9 +1,10 @@
-# Inventory Manager - An application use to store inventory data for just about any item. The database for 
-# this application is a simple text file where all the inventories are stored and comma separated (similar to a csv file).
-# Using the Tkinter library, the image below it the initial view creeated when the applicatio is executed 
+# Inventory Manager 
+
 
 ## Description 
-**( Readme for execution through the ***Terminal*** )**
+ An application use to store inventory data for just about any item. The database for 
+this application is a simple text file where all the inventories are stored and comma separated (similar to a csv file).
+Using the Tkinter library, the image below it the initial view creeated when the applicatio is executed 
 
 Two separate applications are developed for this iventory management system, one which is the ***Inventory_System.py*** and the other a ***Item.py*** program
 
@@ -11,6 +12,7 @@ Two separate applications are developed for this iventory management system, one
   * Inventory_System.py - This is the main application where all the ***CRUD*** functionalities are implemented 
   * Item.py - This is a class used within Inventory_System.py for creating objects for every items stored in the inventory
 
+  **( Execution through the ***Terminal*** )**
   *NB* How to run the application
   ```powershell 
   python Inventory_System.py
