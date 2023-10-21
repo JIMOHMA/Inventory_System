@@ -29,9 +29,9 @@ Two separate applications are developed for this iventory management system, one
 
 - [x] *Read* - Load the database into the application and search for any given item based on it ***Item Number***
 ![Load Inventory](Load.PNG "Load Inventory")
-![Search](Load&Search.PNG "Search for an item in inventory")
 
 - [x] *Update* - Search for any given item and update its record in the inventory 
+![Search](Load&Search.PNG "Search for an item in inventory")
 <!-- ![Load Inventory](Load.PNG "Temp Add") -->
 
 - [x] *Delete* - Delete any given record from the inventory, and update the database 
