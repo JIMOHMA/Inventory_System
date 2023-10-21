@@ -37,3 +37,7 @@ Two separate applications are developed for this iventory management system, one
 - [x] *Delete* - Delete any given record from the inventory, and update the database 
 ![Delete](imgs/DeleteImage.PNG "Delete")
 ![Delete&Confirm](imgs/DeleteConfirm.PNG "Confirm Deletion")
+
+### Storage and Database
+The database feature is a simple Write, Read, Update, and Delete to/from a text file. 
+This could be further developed into using SQlite, MongoDB or any other SQL Database system
