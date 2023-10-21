@@ -12,8 +12,8 @@ Two separate applications are developed for this iventory management system, one
   * Inventory_System.py - This is the main application where all the ***CRUD*** functionalities are implemented 
   * Item.py - This is a class used within Inventory_System.py for creating objects for every items stored in the inventory
 
+  #### How to run the application
   **( Execution through the ***Terminal*** )**
-  *NB* How to run the application
   ```powershell 
   python Inventory_System.py
   ```
