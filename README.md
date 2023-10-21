@@ -23,17 +23,17 @@ Two separate applications are developed for this iventory management system, one
 ### Features (***CRUD***)
 - [x] *Create* - Add a new entry into the Inventory database 
 
-![Add New Item](TempAdd.PNG "Temp Add")
+![Add New Item](imgs/TempAdd.PNG "Temp Add")
 
-![Saved Item](Saved.PNG "Save")
+![Saved Item](imgs/Saved.PNG "Save")
 
 - [x] *Read* - Load the database into the application and search for any given item based on it ***Item Number***
-![Load Inventory](Load.PNG "Load Inventory")
+![Load Inventory](imgs/Load.PNG "Load Inventory")
 
 - [x] *Update* - Search for any given item and update its record in the inventory 
-![Search](Load&Search.PNG "Search for an item in inventory")
+![Search](imgs/Load&Search.PNG "Search for an item in inventory")
 <!-- ![Load Inventory](Load.PNG "Temp Add") -->
 
 - [x] *Delete* - Delete any given record from the inventory, and update the database 
-![Delete](Delete.PNG "Delete")
-![Delete&Confirm](DeleteConfirm.PNG "Confirm Deletion")
+![Delete](imgs/DeleteImage.PNG "Delete")
+![Delete&Confirm](imgs/DeleteConfirm.PNG "Confirm Deletion")
