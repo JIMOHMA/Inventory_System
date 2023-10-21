@@ -4,16 +4,17 @@
 #########################################################################################################################################
 ## A Few Notes                                                                                                                         ##                        
 ## The valid entry for the fields Item Name, Location and Description should be written in the format explained below.                 ##
-## If the input of the field is more than one word(string), the strings/words whould be separated with any                             ##
+## If the input of the field is more than one word(string), the strings/words whould be separated with an                             ##
 ## hyphen in order to distinguish between the strings/words. Example of an item is shown below;                                        ##
 ## Item Number: 2222, Quantity: 20, Item Name: Screwdrivers, Item Location: Warehouse-C, Item Description: Large-Phillips-Screwdrivers.##
 ##                                                                                                                                     ##
 ## However, if an item property (e.g Item Name or Location) is just one word, 
-## the inclusion of hyphen could be disregarded                                                                                        ##
+## the inclusion of hyphen should be disregarded                                                                                        ##
 #########################################################################################################################################
 
  
 from tkinter import *
+from Item import Item # class module for the data structure of any give entry
 from tkinter import ttk
 from tkinter import filedialog
 
@@ -355,6 +356,13 @@ class Inventory:
             
             self.label_Message.config(text=" Data has been permanently added to inventory and saved to your chosen file! ")
 
+            # clear the fields on save
+            self.entry_Number.delete(0, END)
+            self.entry_Quantity.delete(0, END)
+            self.entry_Name.delete(0, END)
+            self.entry_Location.delete(0, 'end')
+            self.entry_Description.delete(0, 'end')
+
         else:
             try:
                 self.mylist[0]
@@ -384,6 +392,13 @@ class Inventory:
                 self.Search_button.config(state=NORMAL)
                 
                 self.label_Message.config(text=" Data has been permanently added to inventory and saved to your chosen file! ")
+
+                # clear the fields on save
+                self.entry_Number.delete(0, END)
+                self.entry_Quantity.delete(0, END)
+                self.entry_Name.delete(0, END)
+                self.entry_Location.delete(0, 'end')
+                self.entry_Description.delete(0, 'end')
                 
 
     ## The function to be called when a data is to be added to the list called mylist
@@ -509,22 +524,6 @@ class Inventory:
         ## which allows for final deletetion of a data
         self.Confirm_button.config(state=DISABLED)
         self.Delete_button.config(state=DISABLED)
-        
-        
-## Class for formating how the data is to be represented and also holding the data
-## about to be stored into the system's memory
-class Item:
-
-    def __init__(self, Number, Quantity, Name, Location, Description):
-
-        self.Number = Number
-        self.Quantity = Quantity
-        self.Name = Name
-        self.Location = Location
-        self.Description = Description
-
-    def __repr__(self):
-        return '{},{},{},{},{}'.format(self.Number, self.Quantity, self.Name, self.Location, self.Description)
         
     
 root = Tk()
