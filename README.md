@@ -22,7 +22,9 @@ Two separate applications are developed for this iventory management system, one
 
 ### Features (***CRUD***)
 - [x] *Create* - Add a new entry into the Inventory database 
+
 ![Add New Item](TempAdd.PNG "Temp Add")
+
 ![Saved Item](Saved.PNG "Save")
 
 - [x] *Read* - Load the database into the application and search for any given item based on it ***Item Number***
